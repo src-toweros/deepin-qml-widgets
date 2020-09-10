@@ -6,7 +6,7 @@ License:        GPLv3
 URL:            https://github.com/linuxdeepin/deepin-qml-widgets
 Source0:        %{url}/archive/%{version}/%{name}-%{version}.tar.gz
 
-BuildRequires:  dtkwidget2-devel dtkcore2-devel deepin-gettext-tools
+BuildRequires:  dtkwidget2-devel dtkcore2-devel deepin-gettext-tools libXdamage-devel
 BuildRequires:  pkgconfig(gdk-pixbuf-2.0) pkgconfig(gtk+-2.0) pkgconfig(glib-2.0) pkgconfig(gio-2.0) pkgconfig(pango) pkgconfig(x11) pkgconfig(xcb) pkgconfig(xcb-damage) pkgconfig(Qt5X11Extras) pkgconfig(atk)
 BuildRequires:  pkgconfig(xcomposite) pkgconfig(Qt5Core) pkgconfig(Qt5DBus) pkgconfig(Qt5Gui) pkgconfig(Qt5Network) pkgconfig(Qt5OpenGL) pkgconfig(Qt5Qml) pkgconfig(Qt5WebKit) pkgconfig(Qt5Widgets)
 Requires:       qt5-qtgraphicaleffects%{?_isa} qt5-qtquickcontrols%{?_isa}
