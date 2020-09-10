@@ -1,0 +1,4 @@
+version_control: github
+src_repo: linuxdeepin/deepin-qml-widgets
+tag_prefix: ^
+seperator: .
